@@ -1,0 +1,91 @@
+{
+  "time": "2026-09-15T08:28:36+0900",
+  "allocated_bytes": 605802496,
+  "logical_bytes": 573733928,
+  "available_bytes": 116256718848,
+  "allocated_reduction_bytes": 31444992,
+  "observed_filesystem_available_increase_bytes": 921395200,
+  "physical_reclamation_attributable_to_this_task": "Cannot isolate from concurrent filesystem activity/APFS block sharing; observations are not attribution. Immediate cleanup observation is in deleted-files.json.",
+  "directories": {
+    "(root files)": {
+      "allocated_bytes": 221184,
+      "logical_bytes": 179227,
+      "files": 14
+    },
+    ".build-work": {
+      "allocated_bytes": 4096,
+      "logical_bytes": 177,
+      "files": 2
+    },
+    "tools": {
+      "allocated_bytes": 69632,
+      "logical_bytes": 39447,
+      "files": 10
+    },
+    "node_modules": {
+      "allocated_bytes": 322088960,
+      "logical_bytes": 295599237,
+      "files": 9742
+    },
+    "tests": {
+      "allocated_bytes": 36864,
+      "logical_bytes": 28987,
+      "files": 3
+    },
+    "docs": {
+      "allocated_bytes": 376832,
+      "logical_bytes": 346717,
+      "files": 12
+    },
+    "static": {
+      "allocated_bytes": 59645952,
+      "logical_bytes": 59518165,
+      "files": 57
+    },
+    ".github": {
+      "allocated_bytes": 4096,
+      "logical_bytes": 2469,
+      "files": 1
+    },
+    "playwright-report": {
+      "allocated_bytes": 1101824,
+      "logical_bytes": 1098598,
+      "files": 2
+    },
+    ".svelte-kit": {
+      "allocated_bytes": 98304,
+      "logical_bytes": 33783,
+      "files": 21
+    },
+    ".git": {
+      "allocated_bytes": 77119488,
+      "logical_bytes": 72687765,
+      "files": 1434
+    },
+    ".build-artifacts": {
+      "allocated_bytes": 123252736,
+      "logical_bytes": 122748531,
+      "files": 219
+    },
+    "test-results": {
+      "allocated_bytes": 19243008,
+      "logical_bytes": 19205582,
+      "files": 16
+    },
+    "coverage": {
+      "allocated_bytes": 1404928,
+      "logical_bytes": 1300248,
+      "files": 50
+    },
+    "src": {
+      "allocated_bytes": 1134592,
+      "logical_bytes": 944995,
+      "files": 96
+    }
+  },
+  "build_link": ".build-artifacts/dev/1789428006499604000-1a90ad215175/package",
+  "remaining_owned_jobs": [],
+  "successful_development_packages": 1,
+  "preserved_legacy_packages": 1,
+  "raw_logs": 2
+}
