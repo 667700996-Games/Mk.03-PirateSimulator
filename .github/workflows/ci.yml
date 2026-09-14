@@ -31,6 +31,7 @@ jobs:
         with:
           name: build-logs
           path: .build-artifacts/logs/*/raw.log
+          include-hidden-files: true
           if-no-files-found: ignore
           retention-days: 14
 
@@ -80,5 +81,6 @@ jobs:
         with:
           name: build-logs-${{ matrix.project }}
           path: .build-artifacts/logs/*/raw.log
+          include-hidden-files: true
           if-no-files-found: ignore
           retention-days: 14

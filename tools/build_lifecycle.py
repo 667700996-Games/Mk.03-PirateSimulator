@@ -140,6 +140,16 @@ class Lifecycle:
         self.recover_migration()
         for path in sorted((self.work / 'jobs').iterdir()):
             if self.owned(path, 'job'):
+                group = read_json(path / '.owner.json').get('worker_group')
+                if group:
+                    try:
+                        os.killpg(group, 0)
+                    except ProcessLookupError:
+                        pass
+                    except PermissionError:
+                        raise RuntimeError(f'Cannot confirm worker group is unused; preserved: {path}')
+                    else:
+                        raise RuntimeError(f'Worker process group still active; preserved: {path}')
                 try:
                     self.archive_symbols(path, path.name)
                 except (OSError, RuntimeError) as error:
@@ -204,6 +214,10 @@ class Lifecycle:
         shutil.copy2(self.root / 'tools/build-context.mjs', project / 'tools/build-context.mjs')
         for name in ['static', 'node_modules']:
             (project / name).symlink_to(self.root / name, target_is_directory=True)
+        # Vite's config runner resolves tsconfig before SvelteKit initializes.
+        # Bootstrap only the disposable copy; SvelteKit replaces this during sync.
+        (project / '.svelte-kit').mkdir()
+        (project / '.svelte-kit/tsconfig.json').write_text('{}\n')
         (job / 'tmp').mkdir()
         return project
 
@@ -299,7 +313,10 @@ class Lifecycle:
             env = dict(os.environ, PIRATE_BUILD_JOB=str(job), PIRATE_BUILD_ROOT=str(self.root),
                        TMPDIR=str(job / 'tmp'), TMP=str(job / 'tmp'), TEMP=str(job / 'tmp'))
             cmd = command or ['node', str(self.root / 'tools/build-worker.mjs')]
-            result = run_child(cmd, project, env, lock_fd, log / 'raw.log')
+            def record_worker(pid):
+                atomic_json(job / '.owner.json', self.metadata('job', pid=os.getpid(),
+                                                               id=run_id, worker_group=pid))
+            result = run_child(cmd, project, env, lock_fd, log / 'raw.log', record_worker)
             if result:
                 raise RuntimeError(f'Build failed/interrupted (exit {result}); previous build preserved. Log: {log}')
             manifest = {'id': run_id, 'type': 'release' if release else 'development',
@@ -328,7 +345,7 @@ def digest(path):
     return h.hexdigest()
 
 
-def run_child(command, cwd, env, lock_fd, log_path=None):
+def run_child(command, cwd, env, lock_fd, log_path=None, on_start=None):
     """The child inherits the flock FD; killing only this supervisor cannot unlock it."""
     child = None
     interrupted = None
@@ -347,6 +364,8 @@ def run_child(command, cwd, env, lock_fd, log_path=None):
     try:
         child = subprocess.Popen(command, cwd=cwd, env=env, pass_fds=(lock_fd,),
                                  start_new_session=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        if on_start:
+            on_start(child.pid)
         if interrupted:
             stop(interrupted, None)
         with selectors.DefaultSelector() as selector:
@@ -395,6 +414,10 @@ def main():
     parser.add_argument('--port', type=int, default=4173)
     args = parser.parse_args()
     lifecycle = Lifecycle(Path(__file__).resolve().parent.parent)
+    def interrupted(signum, _frame):
+        raise RuntimeError(f'Interrupted by signal {signum}; cleanup runs before exit')
+    for signum in [signal.SIGINT, signal.SIGTERM, signal.SIGHUP]:
+        signal.signal(signum, interrupted)
     try:
         with lifecycle.lock(shared=args.action == 'preview') as fd:
             if args.action == 'clean':

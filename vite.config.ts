@@ -7,8 +7,10 @@ const context = buildContext();
 export default defineConfig({
   plugins: [{
     name: 'owned-build-workspace',
-    configResolved(config) {
-      if (config.command === 'build' && !context) {
+    apply: 'build',
+    enforce: 'pre',
+    buildStart() {
+      if (!context) {
         throw new Error('Use npm run build; builds require an owned workspace and lock');
       }
     }
