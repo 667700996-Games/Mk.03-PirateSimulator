@@ -1,0 +1,230 @@
+{
+  "time": "2026-09-15T08:11:01+0900",
+  "allocated_bytes": 637247488,
+  "logical_bytes": 604811087,
+  "available_bytes": 115335323648,
+  "directories": {
+    "(root files)": {
+      "allocated_bytes": 217088,
+      "logical_bytes": 175304,
+      "files": 13
+    },
+    "tools": {
+      "allocated_bytes": 8192,
+      "logical_bytes": 2211,
+      "files": 2
+    },
+    "node_modules": {
+      "allocated_bytes": 353042432,
+      "logical_bytes": 326086337,
+      "files": 9917
+    },
+    "tests": {
+      "allocated_bytes": 36864,
+      "logical_bytes": 28987,
+      "files": 3
+    },
+    "docs": {
+      "allocated_bytes": 217088,
+      "logical_bytes": 207137,
+      "files": 4
+    },
+    "static": {
+      "allocated_bytes": 59645952,
+      "logical_bytes": 59518165,
+      "files": 57
+    },
+    ".github": {
+      "allocated_bytes": 4096,
+      "logical_bytes": 1411,
+      "files": 1
+    },
+    "playwright-report": {
+      "allocated_bytes": 1101824,
+      "logical_bytes": 1098598,
+      "files": 2
+    },
+    ".svelte-kit": {
+      "allocated_bytes": 62738432,
+      "logical_bytes": 62297151,
+      "files": 178
+    },
+    "build": {
+      "allocated_bytes": 61587456,
+      "logical_bytes": 61347964,
+      "files": 105
+    },
+    ".git": {
+      "allocated_bytes": 76865536,
+      "logical_bytes": 72596997,
+      "files": 1383
+    },
+    "test-results": {
+      "allocated_bytes": 19243008,
+      "logical_bytes": 19205582,
+      "files": 16
+    },
+    "coverage": {
+      "allocated_bytes": 1404928,
+      "logical_bytes": 1300248,
+      "files": 50
+    },
+    "src": {
+      "allocated_bytes": 1134592,
+      "logical_bytes": 944995,
+      "files": 96
+    }
+  },
+  "largest_files": [
+    {
+      "path": "node_modules/phaser/types/phaser.json",
+      "bytes": 47298654,
+      "allocated": 47300608
+    },
+    {
+      "path": "node_modules/@rolldown/binding-darwin-arm64/rolldown-binding.darwin-arm64.node",
+      "bytes": 16557120,
+      "allocated": 16560128
+    },
+    {
+      "path": "node_modules/.vite/deps/phaser.js.map",
+      "bytes": 10051887,
+      "allocated": 10055680
+    },
+    {
+      "path": "node_modules/typescript/lib/typescript.js",
+      "bytes": 9144216,
+      "allocated": 9146368
+    },
+    {
+      "path": "node_modules/lightningcss-darwin-arm64/lightningcss.darwin-arm64.node",
+      "bytes": 8532944,
+      "allocated": 8536064
+    },
+    {
+      "path": "node_modules/phaser/dist/phaser-ie9.js",
+      "bytes": 7870550,
+      "allocated": 7872512
+    },
+    {
+      "path": "node_modules/phaser/dist/phaser.esm.js",
+      "bytes": 7864081,
+      "allocated": 7864320
+    },
+    {
+      "path": "node_modules/phaser/dist/phaser.js",
+      "bytes": 7857688,
+      "allocated": 7860224
+    },
+    {
+      "path": "node_modules/phaser/dist/phaser-arcade-physics.js",
+      "bytes": 7241615,
+      "allocated": 7241728
+    },
+    {
+      "path": "node_modules/.vite/deps/phaser.js",
+      "bytes": 6949594,
+      "allocated": 6950912
+    },
+    {
+      "path": "node_modules/typescript/lib/_tsc.js",
+      "bytes": 6239091,
+      "allocated": 6242304
+    },
+    {
+      "path": "node_modules/phaser/types/phaser.d.ts",
+      "bytes": 6211016,
+      "allocated": 6213632
+    },
+    {
+      "path": "node_modules/svelte-check/dist/src/index.js",
+      "bytes": 5360698,
+      "allocated": 5361664
+    },
+    {
+      "path": "test-results/game-loop-creates-a-pirate-395f8-ery-core-management-surface-webkit/strategic-map.png",
+      "bytes": 4249607,
+      "allocated": 4251648
+    },
+    {
+      "path": "test-results/game-loop-creates-a-pirate-395f8-ery-core-management-surface-webkit/isometric-settlement.png",
+      "bytes": 3523596,
+      "allocated": 3526656
+    },
+    {
+      "path": "node_modules/playwright-core/lib/coreBundle.js",
+      "bytes": 3425603,
+      "allocated": 3428352
+    },
+    {
+      "path": "node_modules/playwright-core/lib/utilsBundle.js",
+      "bytes": 3239355,
+      "allocated": 3239936
+    },
+    {
+      "path": ".git/objects/13/8e4994ccff75242fb0e1d6476d6c78b5321d5b",
+      "bytes": 3194107,
+      "allocated": 3194880
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_compiler.js.map",
+      "bytes": 3094271,
+      "allocated": 3096576
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler.js 2.map",
+      "bytes": 3091121,
+      "allocated": 3092480
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler.js.map",
+      "bytes": 3091121,
+      "allocated": 3092480
+    },
+    {
+      "path": ".git/objects/00/e472df38af8951c218b98b0d9ff84bddd8e599",
+      "bytes": 2940831,
+      "allocated": 2940928
+    },
+    {
+      "path": "node_modules/playwright/lib/transform/babelBundle.js",
+      "bytes": 2901663,
+      "allocated": 2904064
+    },
+    {
+      "path": "static/art/settlement/industry-buildings-tier3-atlas.png",
+      "bytes": 2837973,
+      "allocated": 2838528
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/industry-buildings-tier3-atlas.png",
+      "bytes": 2837973,
+      "allocated": 2838528
+    },
+    {
+      "path": "build/art/settlement/industry-buildings-tier3-atlas.png",
+      "bytes": 2837973,
+      "allocated": 2838528
+    },
+    {
+      "path": ".git/objects/b8/fe060224d407d70698e101843d9aaff030d2b5",
+      "bytes": 2837762,
+      "allocated": 2838528
+    },
+    {
+      "path": "static/art/settlement/core-buildings-tier3-atlas.png",
+      "bytes": 2747731,
+      "allocated": 2748416
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/core-buildings-tier3-atlas.png",
+      "bytes": 2747731,
+      "allocated": 2748416
+    },
+    {
+      "path": "build/art/settlement/core-buildings-tier3-atlas.png",
+      "bytes": 2747731,
+      "allocated": 2748416
+    }
+  ]
+}

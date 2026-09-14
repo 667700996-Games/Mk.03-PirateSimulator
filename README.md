@@ -8,7 +8,7 @@
 
 ## 실행
 
-Node.js 22 이상이 필요합니다.
+Node.js 22 이상이 필요합니다. 빌드·미리보기에는 Python 3.9 이상과 macOS/Linux/WSL의 POSIX 잠금도 필요합니다.
 
 ```bash
 npm install
@@ -22,7 +22,7 @@ npm run build
 npm run preview
 ```
 
-정적 결과물은 `build/`에 생성됩니다.
+정적 결과물은 `build/` 링크로 제공됩니다. 빌드 중간 파일은 작업별로 격리해 종료 시 정리하며, 개발용 성공 패키지 최근 2회와 원문 로그 최근 10회(각 최대 1MiB)를 보관합니다. 출시본·기존 배포본·심볼은 별도 보존합니다. 실행 방법과 예외는 [빌드 정리 정책](docs/build-cleanup.md)을 참고하세요.
 
 ## 핵심 플레이 루프
 

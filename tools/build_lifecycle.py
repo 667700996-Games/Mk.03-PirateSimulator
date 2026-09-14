@@ -61,6 +61,16 @@ def plain_dir(path):
     path.mkdir(mode=0o700, exist_ok=True)
 
 
+def group_alive(group):
+    try:
+        os.killpg(group, 0)
+        return True
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True  # Uncertain ownership is never proof that files are unused.
+
+
 class Lifecycle:
     def __init__(self, root):
         self.root = Path(root).resolve()
@@ -116,6 +126,11 @@ class Lifecycle:
         if path.parent != parent or not ID.fullmatch(path.name) or not self.owned(path, kind):
             self.warning(path, 'not a recognized owned entry; preserved')
             return False
+        if kind == 'job':
+            group = read_json(path / '.owner.json').get('worker_group')
+            if group and group_alive(group):
+                self.warning(path, 'worker group may still be active; preserved')
+                return False
         try:
             # rmtree does not follow child symlinks. Reject mount points as well.
             device = parent.stat().st_dev
@@ -127,7 +142,7 @@ class Lifecycle:
             shutil.rmtree(path)
             print(f'Cleaned owned {kind}: {path}')
             return True
-        except OSError as error:
+        except (OSError, RuntimeError) as error:
             self.warning(path, error)
             return False
 
@@ -401,6 +416,12 @@ def run_child(command, cwd, env, lock_fd, log_path=None, on_start=None):
                 with contextlib.suppress(ProcessLookupError):
                     os.killpg(child.pid, signal.SIGKILL)
                 child.wait()
+            # A helper may outlive its direct parent and close inherited stdout/FDs.
+            # Kill only this dedicated process group; remove_owned independently
+            # refuses deletion if the OS still reports a surviving group.
+            if group_alive(child.pid):
+                with contextlib.suppress(ProcessLookupError):
+                    os.killpg(child.pid, signal.SIGKILL)
             child.stdout.close()
         for signum, handler in previous.items():
             signal.signal(signum, handler)

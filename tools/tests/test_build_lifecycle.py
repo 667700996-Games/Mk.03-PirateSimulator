@@ -82,6 +82,39 @@ class LifecycleTests(unittest.TestCase):
             self.build('fail')
         self.assertEqual(os.readlink(self.root / 'build'), before)
 
+    def test_publish_error_keeps_previous_pointer(self):
+        self.build()
+        before = os.readlink(self.root / 'build')
+        with patch.object(self.lifecycle, 'switch_link', side_effect=OSError('simulated publication error')):
+            with self.assertRaises(OSError):
+                self.build()
+        self.assertEqual(os.readlink(self.root / 'build'), before)
+        self.assert_empty_jobs()
+
+    def test_stale_job_symlink_does_not_traverse_original_assets(self):
+        with self.lifecycle.lock():
+            job = self.root / '.build-work/jobs/1234567890123456-eeeeeeeeeeee'
+            self.lifecycle.initialize(job, 'job')
+            (job / 'assets').symlink_to(self.root / 'static', target_is_directory=True)
+            self.lifecycle.recover()
+            self.assertFalse(job.exists())
+            self.assertEqual((self.root / 'static/asset.png').read_bytes(), b'original-asset')
+
+    def test_live_group_blocks_recovery_even_without_inherited_lock(self):
+        child = subprocess.Popen([sys.executable, '-c', 'import time; time.sleep(30)'],
+                                 start_new_session=True)
+        try:
+            with self.lifecycle.lock():
+                job = self.root / '.build-work/jobs/1234567890123456-ffffffffffff'
+                self.lifecycle.initialize(job, 'job')
+                module.atomic_json(job / '.owner.json', self.lifecycle.metadata('job', worker_group=child.pid))
+                with self.assertRaisesRegex(RuntimeError, 'still active'):
+                    self.lifecycle.recover()
+                self.assertTrue(job.exists())
+        finally:
+            child.terminate()
+            child.wait(timeout=5)
+
     def test_signal_cleanup_and_concurrent_build_protection(self):
         for signum in [signal.SIGINT, signal.SIGTERM, signal.SIGHUP]:
             with self.subTest(signum=signum):

@@ -1,0 +1,2001 @@
+{
+  "cleanup": {
+    "time": "2026-09-15T08:12:46+0900",
+    "deleted": [
+      {
+        "path": ".svelte-kit/output",
+        "reason": "SvelteKit generated intermediate output",
+        "files": 157,
+        "allocated_bytes": 62636032,
+        "logical_bytes": 62261661
+      },
+      {
+        "path": "node_modules/.vite",
+        "reason": "Project-local Vite prebundle cache; metadata resolves to installed dependencies; no active users",
+        "files": 238,
+        "allocated_bytes": 37244928,
+        "logical_bytes": 36610220
+      }
+    ],
+    "protected_verified": 346,
+    "available_bytes_after_cleanup": 115412680704,
+    "available_delta_bytes": 77357056
+  },
+  "files": [
+    {
+      "path": "node_modules/.vite/_svelte_metadata.json",
+      "bytes": 1464,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/_metadata.json",
+      "bytes": 5093,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity 2.js",
+      "bytes": 614,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/constants-CAvLsAYl 2.js",
+      "bytes": 851,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/dev-CRL5LuEg.js.map",
+      "bytes": 114888,
+      "allocated": 118784
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-BNltbQ7k.js 2.map",
+      "bytes": 320114,
+      "allocated": 323584
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/version-BdZiTzyR.js 2.map",
+      "bytes": 344,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_client.js",
+      "bytes": 6580,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/hydration-DxYc3nWp.js.map",
+      "bytes": 13234,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_animate.js.map",
+      "bytes": 3726,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/legacy-client-DnEeEFkZ.js 2.map",
+      "bytes": 45405,
+      "allocated": 49152
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_store.js",
+      "bytes": 1936,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_easing.js 2.map",
+      "bytes": 8715,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_motion.js 2.map",
+      "bytes": 28310,
+      "allocated": 28672
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/version-BdZiTzyR.js.map",
+      "bytes": 344,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/dev-CRL5LuEg.js 2.map",
+      "bytes": 114888,
+      "allocated": 118784
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/events-DRaCewYS 2.js",
+      "bytes": 7015,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/attachments-9rR_itKZ.js 2.map",
+      "bytes": 259615,
+      "allocated": 262144
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler 2.js",
+      "bytes": 1655643,
+      "allocated": 1658880
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_transition.js 2.map",
+      "bytes": 15377,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/legacy-client-DnEeEFkZ.js.map",
+      "bytes": 45405,
+      "allocated": 49152
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-BNltbQ7k.js.map",
+      "bytes": 320114,
+      "allocated": 323584
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_disclose-version.js.map",
+      "bytes": 445,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_motion.js",
+      "bytes": 16205,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/dev-CRL5LuEg.js",
+      "bytes": 64215,
+      "allocated": 65536
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/validate-BUAfEi_7 2.js",
+      "bytes": 6675,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-CwLgwv6N.js 2.map",
+      "bytes": 14965,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_server.js",
+      "bytes": 1710,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_motion.js.map",
+      "bytes": 28310,
+      "allocated": 28672
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity_window.js 2.map",
+      "bytes": 6860,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/warnings-BxUAdLIo 2.js",
+      "bytes": 9363,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_legacy.js 2.map",
+      "bytes": 4885,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_async.js 2.map",
+      "bytes": 251,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_transition.js.map",
+      "bytes": 15377,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte 2.js",
+      "bytes": 4581,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_async.js.map",
+      "bytes": 251,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-CwLgwv6N.js.map",
+      "bytes": 14965,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_disclose-version.js",
+      "bytes": 191,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/attachments-9rR_itKZ.js",
+      "bytes": 125189,
+      "allocated": 126976
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_store.js 2.map",
+      "bytes": 2660,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-CwLgwv6N 2.js",
+      "bytes": 9696,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_legacy 2.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/warnings-BxUAdLIo.js 2.map",
+      "bytes": 14821,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity.js 2.map",
+      "bytes": 908,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_legacy.js.map",
+      "bytes": 4885,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_tracing.js",
+      "bytes": 181,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/flags-Dg54hJHs.js 2.map",
+      "bytes": 937,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal 2.js",
+      "bytes": 466,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte.js.map",
+      "bytes": 8728,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity.js",
+      "bytes": 614,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_legacy 2.js",
+      "bytes": 3075,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/legacy-client-DnEeEFkZ 2.js",
+      "bytes": 23490,
+      "allocated": 24576
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity_window 2.js",
+      "bytes": 4116,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_attachments 2.js",
+      "bytes": 131,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/flags-Dg54hJHs 2.js",
+      "bytes": 687,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_client 2.js",
+      "bytes": 6580,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/events-DRaCewYS.js",
+      "bytes": 7015,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/hydration-DxYc3nWp.js",
+      "bytes": 7283,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_transition 2.js",
+      "bytes": 9597,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/warnings-BxUAdLIo.js",
+      "bytes": 9363,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_async.js",
+      "bytes": 175,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/package 2.json",
+      "bytes": 23,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity.js.map",
+      "bytes": 908,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_tracing 2.js",
+      "bytes": 181,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_store 2.js",
+      "bytes": 1936,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_legacy.js",
+      "bytes": 3075,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/constants-CAvLsAYl.js 2.map",
+      "bytes": 2870,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_disclose-version 2.js",
+      "bytes": 191,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-CwLgwv6N.js",
+      "bytes": 9696,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_easing 2.js",
+      "bytes": 4663,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_animate.js",
+      "bytes": 1902,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity_window.js.map",
+      "bytes": 6860,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/constants-CAvLsAYl.js.map",
+      "bytes": 2870,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/package.json",
+      "bytes": 23,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_legacy.js.map",
+      "bytes": 255,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/validate-BUAfEi_7.js.map",
+      "bytes": 11376,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_async 2.js",
+      "bytes": 175,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_tracing.js.map",
+      "bytes": 259,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_disclose-version.js 2.map",
+      "bytes": 445,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_server 2.js",
+      "bytes": 1710,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_animate 2.js",
+      "bytes": 1902,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/validate-BUAfEi_7.js 2.map",
+      "bytes": 11376,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/attachments-9rR_itKZ 2.js",
+      "bytes": 125189,
+      "allocated": 126976
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler.js 2.map",
+      "bytes": 3091121,
+      "allocated": 3092480
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte.js 2.map",
+      "bytes": 8728,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_easing.js.map",
+      "bytes": 8715,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/warnings-BxUAdLIo.js.map",
+      "bytes": 14821,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_server.js",
+      "bytes": 68,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_attachments.js",
+      "bytes": 131,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/events-DRaCewYS.js 2.map",
+      "bytes": 14937,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler.js",
+      "bytes": 1655643,
+      "allocated": 1658880
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/hydration-DxYc3nWp 2.js",
+      "bytes": 7283,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_compiler.js.map",
+      "bytes": 3091121,
+      "allocated": 3092480
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_legacy.js 2.map",
+      "bytes": 255,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_store.js.map",
+      "bytes": 2660,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_tracing.js 2.map",
+      "bytes": 259,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/legacy-client-DnEeEFkZ.js",
+      "bytes": 23490,
+      "allocated": 24576
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/flags-Dg54hJHs.js.map",
+      "bytes": 937,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/version-BdZiTzyR 2.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte.js",
+      "bytes": 4581,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_motion 2.js",
+      "bytes": 16205,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_transition.js",
+      "bytes": 9597,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal.js 2.map",
+      "bytes": 822,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-BNltbQ7k.js",
+      "bytes": 156755,
+      "allocated": 159744
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal.js.map",
+      "bytes": 822,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/hydration-DxYc3nWp.js 2.map",
+      "bytes": 13234,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/attachments-9rR_itKZ.js.map",
+      "bytes": 259615,
+      "allocated": 262144
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/events-DRaCewYS.js.map",
+      "bytes": 14937,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/utils-BNltbQ7k 2.js",
+      "bytes": 156755,
+      "allocated": 159744
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_reactivity_window.js",
+      "bytes": 4116,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/_metadata 2.json",
+      "bytes": 5093,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_events.js",
+      "bytes": 63,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/validate-BUAfEi_7.js",
+      "bytes": 6675,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/constants-CAvLsAYl.js",
+      "bytes": 851,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal_flags_legacy.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_animate.js 2.map",
+      "bytes": 3726,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_internal.js",
+      "bytes": 466,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/version-BdZiTzyR.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/dev-CRL5LuEg 2.js",
+      "bytes": 64215,
+      "allocated": 65536
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/flags-Dg54hJHs.js",
+      "bytes": 687,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_events 2.js",
+      "bytes": 63,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_server 2.js",
+      "bytes": 68,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps_ssr/svelte_easing.js",
+      "bytes": 4663,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/results.json",
+      "bytes": 2346,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/_svelte_metadata.json",
+      "bytes": 1465,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/_metadata.json",
+      "bytes": 5213,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/dev-CRL5LuEg.js.map",
+      "bytes": 114966,
+      "allocated": 118784
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_client.js",
+      "bytes": 6580,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/hydration-DxYc3nWp.js.map",
+      "bytes": 13246,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_animate.js.map",
+      "bytes": 3732,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_store.js",
+      "bytes": 1936,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/version-BdZiTzyR.js.map",
+      "bytes": 350,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/legacy-client-DnEeEFkZ.js.map",
+      "bytes": 45435,
+      "allocated": 49152
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/utils-BNltbQ7k.js.map",
+      "bytes": 320306,
+      "allocated": 323584
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_disclose-version.js.map",
+      "bytes": 451,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_motion.js",
+      "bytes": 16205,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/dev-CRL5LuEg.js",
+      "bytes": 64215,
+      "allocated": 65536
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_server.js",
+      "bytes": 1710,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_motion.js.map",
+      "bytes": 28334,
+      "allocated": 28672
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_transition.js.map",
+      "bytes": 15383,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_async.js.map",
+      "bytes": 257,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/utils-CwLgwv6N.js.map",
+      "bytes": 14977,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_disclose-version.js",
+      "bytes": 191,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/attachments-9rR_itKZ.js",
+      "bytes": 125189,
+      "allocated": 126976
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_legacy.js.map",
+      "bytes": 4891,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_tracing.js",
+      "bytes": 181,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte.js.map",
+      "bytes": 8746,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_reactivity.js",
+      "bytes": 614,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/events-DRaCewYS.js",
+      "bytes": 7015,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/hydration-DxYc3nWp.js",
+      "bytes": 7283,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/warnings-BxUAdLIo.js",
+      "bytes": 9363,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_async.js",
+      "bytes": 175,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_reactivity.js.map",
+      "bytes": 914,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_legacy.js",
+      "bytes": 3075,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/utils-CwLgwv6N.js",
+      "bytes": 9696,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_animate.js",
+      "bytes": 1902,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_reactivity_window.js.map",
+      "bytes": 6872,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/constants-CAvLsAYl.js.map",
+      "bytes": 2876,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/package.json",
+      "bytes": 23,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_legacy.js.map",
+      "bytes": 261,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/validate-BUAfEi_7.js.map",
+      "bytes": 11394,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_tracing.js.map",
+      "bytes": 265,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_easing.js.map",
+      "bytes": 8721,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/warnings-BxUAdLIo.js.map",
+      "bytes": 14827,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_server.js",
+      "bytes": 68,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_attachments.js",
+      "bytes": 131,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_compiler.js",
+      "bytes": 1655643,
+      "allocated": 1658880
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_compiler.js.map",
+      "bytes": 3094271,
+      "allocated": 3096576
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_store.js.map",
+      "bytes": 2666,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/legacy-client-DnEeEFkZ.js",
+      "bytes": 23490,
+      "allocated": 24576
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/flags-Dg54hJHs.js.map",
+      "bytes": 943,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte.js",
+      "bytes": 4581,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_transition.js",
+      "bytes": 9597,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/utils-BNltbQ7k.js",
+      "bytes": 156755,
+      "allocated": 159744
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal.js.map",
+      "bytes": 828,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/attachments-9rR_itKZ.js.map",
+      "bytes": 259909,
+      "allocated": 262144
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/events-DRaCewYS.js.map",
+      "bytes": 14943,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_reactivity_window.js",
+      "bytes": 4116,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_events.js",
+      "bytes": 63,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/validate-BUAfEi_7.js",
+      "bytes": 6675,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/constants-CAvLsAYl.js",
+      "bytes": 851,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal_flags_legacy.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_internal.js",
+      "bytes": 466,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/version-BdZiTzyR.js",
+      "bytes": 178,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/flags-Dg54hJHs.js",
+      "bytes": 687,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps___vitest__/svelte_easing.js",
+      "bytes": 4663,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/_metadata.json",
+      "bytes": 4636,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_client.js",
+      "bytes": 6516,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_animate.js.map",
+      "bytes": 3726,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_store.js",
+      "bytes": 3011,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/warnings-Da9MyqR4.js.map",
+      "bytes": 15035,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps/index-client-mYNl4gHa.js.map",
+      "bytes": 39011,
+      "allocated": 40960
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_disclose-version.js.map",
+      "bytes": 445,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/warnings-Da9MyqR4.js",
+      "bytes": 10787,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_motion.js",
+      "bytes": 16217,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps/idb.js",
+      "bytes": 7484,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_motion.js.map",
+      "bytes": 28310,
+      "allocated": 28672
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_transition.js.map",
+      "bytes": 15377,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps/index-client-BLd2UgA0.js",
+      "bytes": 139264,
+      "allocated": 139264
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_async.js.map",
+      "bytes": 251,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_disclose-version.js",
+      "bytes": 180,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/reactive-value-Ba_ub90b.js",
+      "bytes": 495,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/legacy-client-Bdp3ESi7.js.map",
+      "bytes": 58513,
+      "allocated": 61440
+    },
+    {
+      "path": "node_modules/.vite/deps/runtime-DcJ1-XBO.js",
+      "bytes": 165556,
+      "allocated": 167936
+    },
+    {
+      "path": "node_modules/.vite/deps/legacy-client-Bdp3ESi7.js",
+      "bytes": 30351,
+      "allocated": 32768
+    },
+    {
+      "path": "node_modules/.vite/deps/events-1B47Lork.js.map",
+      "bytes": 14936,
+      "allocated": 16384
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_tracing.js",
+      "bytes": 170,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_reactivity.js",
+      "bytes": 328,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_async.js",
+      "bytes": 164,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_legacy.js",
+      "bytes": 464,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_animate.js",
+      "bytes": 1902,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_reactivity_window.js.map",
+      "bytes": 6212,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/reactive-value-Ba_ub90b.js.map",
+      "bytes": 786,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/package.json",
+      "bytes": 23,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_legacy.js.map",
+      "bytes": 255,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_n_clsx.js",
+      "bytes": 565,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_tracing.js.map",
+      "bytes": 259,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/runtime-DcJ1-XBO.js.map",
+      "bytes": 325534,
+      "allocated": 327680
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_easing.js.map",
+      "bytes": 8715,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_attachments.js",
+      "bytes": 134,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/index-client-mYNl4gHa.js",
+      "bytes": 21749,
+      "allocated": 24576
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_store.js.map",
+      "bytes": 4911,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/flags-Dg54hJHs.js.map",
+      "bytes": 937,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte.js",
+      "bytes": 753,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_transition.js",
+      "bytes": 9597,
+      "allocated": 12288
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal.js.map",
+      "bytes": 822,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/phaser.js",
+      "bytes": 6949594,
+      "allocated": 6950912
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_reactivity_window.js",
+      "bytes": 3924,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/idb.js.map",
+      "bytes": 17017,
+      "allocated": 20480
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_n_clsx.js.map",
+      "bytes": 1015,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/events-1B47Lork.js",
+      "bytes": 6976,
+      "allocated": 8192
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_events.js",
+      "bytes": 63,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/phaser.js.map",
+      "bytes": 10051887,
+      "allocated": 10055680
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal_flags_legacy.js",
+      "bytes": 167,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_internal.js",
+      "bytes": 455,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/index-client-BLd2UgA0.js.map",
+      "bytes": 273812,
+      "allocated": 274432
+    },
+    {
+      "path": "node_modules/.vite/deps/flags-Dg54hJHs.js",
+      "bytes": 687,
+      "allocated": 4096
+    },
+    {
+      "path": "node_modules/.vite/deps/svelte_easing.js",
+      "bytes": 4663,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/prerendered/pages/index.html",
+      "bytes": 3353,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/internal.js",
+      "bytes": 407,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/manifest.js",
+      "bytes": 3603,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/index.js",
+      "bytes": 125986,
+      "allocated": 126976
+    },
+    {
+      "path": ".svelte-kit/output/server/env.js",
+      "bytes": 222,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/remote-entry.js",
+      "bytes": 54492,
+      "allocated": 57344
+    },
+    {
+      "path": ".svelte-kit/output/server/manifest-full.js",
+      "bytes": 3768,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/entries/fallbacks/error.svelte.js",
+      "bytes": 5199,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/entries/pages/_page.svelte.js",
+      "bytes": 45554,
+      "allocated": 49152
+    },
+    {
+      "path": ".svelte-kit/output/server/entries/pages/_layout.svelte.js",
+      "bytes": 236,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/entries/pages/_layout.ts.js",
+      "bytes": 111,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/nodes/2.js",
+      "bytes": 914,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/nodes/0.js",
+      "bytes": 374,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/nodes/1.js",
+      "bytes": 289,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/RaidScreen.js",
+      "bytes": 10999,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/index-server.js",
+      "bytes": 4556,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/internal2.js",
+      "bytes": 21470,
+      "allocated": 24576
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/index-server2.js",
+      "bytes": 33,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/server.js",
+      "bytes": 131512,
+      "allocated": 135168
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/internal.js",
+      "bytes": 873,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/exports.js",
+      "bytes": 8985,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/SeaScreen.js",
+      "bytes": 742,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/economy.js",
+      "bytes": 1102,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/ProgressionScreen.js",
+      "bytes": 6501,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/SettingsScreen.js",
+      "bytes": 8134,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/env.js",
+      "bytes": 289,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/FleetScreen.js",
+      "bytes": 10143,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/boarding.js",
+      "bytes": 36,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/MissionsScreen.js",
+      "bytes": 4154,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/WorldMapScreen.js",
+      "bytes": 5591,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/utils.js",
+      "bytes": 31777,
+      "allocated": 32768
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/SoundEngine.js",
+      "bytes": 13514,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/gameStore.js",
+      "bytes": 232106,
+      "allocated": 233472
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/voyage.js",
+      "bytes": 59,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/BoardingScreen.js",
+      "bytes": 4491,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/shared.js",
+      "bytes": 10577,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/CrewScreen.js",
+      "bytes": 12592,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/DefenseScreen.js",
+      "bytes": 12360,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/ShipyardScreen.js",
+      "bytes": 12631,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/FactionsScreen.js",
+      "bytes": 7906,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/chunks/FreeportScreen.js",
+      "bytes": 6971,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/ShipyardScreen.S7Rk_lp1.css",
+      "bytes": 7643,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/DefenseScreen.Cx9r4okU.css",
+      "bytes": 3646,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/WorldMapScreen.DqIkETRY.css",
+      "bytes": 641,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/ProgressionScreen.K_GCn03i.css",
+      "bytes": 5329,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/FleetScreen.BRZHtzk3.css",
+      "bytes": 13150,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/FactionsScreen.rFHInk0o.css",
+      "bytes": 1270,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/_page.D9avVzjo.css",
+      "bytes": 19820,
+      "allocated": 20480
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/CrewScreen.XLCb5I-Q.css",
+      "bytes": 6960,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/RaidScreen.BpzQ0ZTD.css",
+      "bytes": 1201,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/server/_app/immutable/assets/_layout.Bnw5cvKb.css",
+      "bytes": 32386,
+      "allocated": 32768
+    },
+    {
+      "path": ".svelte-kit/output/server/.vite/manifest.json",
+      "bytes": 8842,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/.DS_Store",
+      "bytes": 6148,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/pirate-mark-512.png",
+      "bytes": 32749,
+      "allocated": 32768
+    },
+    {
+      "path": ".svelte-kit/output/client/pirate-mark-192.png",
+      "bytes": 11718,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/service-worker.js",
+      "bytes": 3748,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/manifest.webmanifest",
+      "bytes": 745,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/pirate-mark.svg",
+      "bytes": 653,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/archipelago-command-map.webp",
+      "bytes": 301898,
+      "allocated": 303104
+    },
+    {
+      "path": ".svelte-kit/output/client/art/pirate-haven-keyart.png",
+      "bytes": 2370436,
+      "allocated": 2371584
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/society-buildings-atlas.json",
+      "bytes": 2107,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/core-buildings-tier3-atlas.png",
+      "bytes": 2747731,
+      "allocated": 2748416
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-work-front-atlas.json",
+      "bytes": 8521,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/building-progression-overlays-atlas.png",
+      "bytes": 1163695,
+      "allocated": 1167360
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/terrain-surfaces-atlas-v2.png",
+      "bytes": 1175194,
+      "allocated": 1175552
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-work-rear-atlas.png",
+      "bytes": 1146756,
+      "allocated": 1146880
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/livelihood-service-buildings-tier3-atlas.png",
+      "bytes": 2605189,
+      "allocated": 2609152
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-work-front-atlas.png",
+      "bytes": 1091812,
+      "allocated": 1093632
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-combat-front-atlas.png",
+      "bytes": 1271244,
+      "allocated": 1273856
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-combat-rear-atlas.png",
+      "bytes": 1288265,
+      "allocated": 1290240
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-walk-atlas.json",
+      "bytes": 5313,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/core-buildings-tier2-atlas.png",
+      "bytes": 2450922,
+      "allocated": 2453504
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/core-buildings-atlas.png",
+      "bytes": 1905984,
+      "allocated": 1908736
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-roles-rear-atlas.json",
+      "bytes": 1859,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-roles-rear-atlas.png",
+      "bytes": 1171337,
+      "allocated": 1171456
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-roles-atlas.json",
+      "bytes": 1854,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/livelihood-service-buildings-atlas.png",
+      "bytes": 1999732,
+      "allocated": 2002944
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/terrain-surfaces-atlas-v2.json",
+      "bytes": 3311,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/livelihood-service-buildings-tier2-atlas.png",
+      "bytes": 2373986,
+      "allocated": 2375680
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/logistics-fleet-buildings-atlas.json",
+      "bytes": 2737,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/livelihood-service-buildings-atlas.json",
+      "bytes": 1906,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/civic-defense-buildings-atlas.png",
+      "bytes": 1667584,
+      "allocated": 1671168
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/industry-buildings-tier3-atlas.png",
+      "bytes": 2837973,
+      "allocated": 2838528
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/logistics-fleet-buildings-tier3-atlas.png",
+      "bytes": 2717659,
+      "allocated": 2719744
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/industry-buildings-atlas.png",
+      "bytes": 2093974,
+      "allocated": 2097152
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/logistics-fleet-buildings-atlas.png",
+      "bytes": 1832583,
+      "allocated": 1835008
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/civic-defense-buildings-tier3-atlas.png",
+      "bytes": 2597899,
+      "allocated": 2600960
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/society-buildings-tier2-atlas.png",
+      "bytes": 2684986,
+      "allocated": 2686976
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/core-buildings-atlas.json",
+      "bytes": 2710,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-walk-front-atlas.png",
+      "bytes": 1528239,
+      "allocated": 1531904
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-combat-front-atlas.json",
+      "bytes": 8571,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/building-progression-overlays-atlas.json",
+      "bytes": 1516,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/civic-defense-buildings-atlas.json",
+      "bytes": 1907,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/society-buildings-atlas.png",
+      "bytes": 2293981,
+      "allocated": 2297856
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/industry-buildings-tier2-atlas.png",
+      "bytes": 2552798,
+      "allocated": 2555904
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/industry-buildings-atlas.json",
+      "bytes": 2066,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/logistics-fleet-buildings-tier2-atlas.png",
+      "bytes": 2430770,
+      "allocated": 2433024
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-walk-rear-atlas.png",
+      "bytes": 1397107,
+      "allocated": 1400832
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/civic-defense-buildings-tier2-atlas.png",
+      "bytes": 2235069,
+      "allocated": 2236416
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-roles-atlas.png",
+      "bytes": 1204444,
+      "allocated": 1208320
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-work-rear-atlas.json",
+      "bytes": 8528,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/resident-combat-rear-atlas.json",
+      "bytes": 8578,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/art/settlement/society-buildings-tier3-atlas.png",
+      "bytes": 2671736,
+      "allocated": 2674688
+    },
+    {
+      "path": ".svelte-kit/output/client/art/naval/fleet-classes-atlas.json",
+      "bytes": 2066,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/art/naval/fleet-classes-atlas.png",
+      "bytes": 1056803,
+      "allocated": 1060864
+    },
+    {
+      "path": ".svelte-kit/output/client/audio/rain-loop.ogg",
+      "bytes": 155587,
+      "allocated": 155648
+    },
+    {
+      "path": ".svelte-kit/output/client/audio/hull-impact.ogg",
+      "bytes": 7897,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/audio/harbor-loop.ogg",
+      "bytes": 198379,
+      "allocated": 200704
+    },
+    {
+      "path": ".svelte-kit/output/client/audio/cannon-heavy.ogg",
+      "bytes": 10747,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/audio/ocean-loop.ogg",
+      "bytes": 162206,
+      "allocated": 163840
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/version.json",
+      "bytes": 27,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/nodes/2.BsCXbGf3.js",
+      "bytes": 54620,
+      "allocated": 57344
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/nodes/1.CTjA2zz-.js",
+      "bytes": 631,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/nodes/0.CvuanWxI.js",
+      "bytes": 238,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/entry/app.DMhAz1Yd.js",
+      "bytes": 3039,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/entry/start.DhlVpq1m.js",
+      "bytes": 77,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/DCQyA3dL.js",
+      "bytes": 1197133,
+      "allocated": 1200128
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BdcuVEyv.js",
+      "bytes": 16651,
+      "allocated": 20480
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/CojCX6tm.js",
+      "bytes": 15789,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/cVpjlNx2.js",
+      "bytes": 26679,
+      "allocated": 28672
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/RGp8HZTp.js",
+      "bytes": 8898,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/CeUbYPhj.js",
+      "bytes": 7791,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BA1r9YNe.js",
+      "bytes": 22,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/CTtZ_xky.js",
+      "bytes": 6773,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/Eveh-hl7.js",
+      "bytes": 11372,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/Cyz7l1Ej.js",
+      "bytes": 13345,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/xihTtKlq.js",
+      "bytes": 65,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/Bjy-W4x2.js",
+      "bytes": 1365,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BZ4D4rkT.js",
+      "bytes": 7657,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/B94sJJP6.js",
+      "bytes": 11324,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/B2l3wbtF.js",
+      "bytes": 137255,
+      "allocated": 139264
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/tnbDDSLs.js",
+      "bytes": 21610,
+      "allocated": 24576
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/HclGiUj8.js",
+      "bytes": 1211,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/CjCZkocL.js",
+      "bytes": 49009,
+      "allocated": 49152
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/D_zH1aTt.js",
+      "bytes": 42698,
+      "allocated": 45056
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/TXgs3UHy.js",
+      "bytes": 3617,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/DpTGV5gV.js",
+      "bytes": 4467,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BKQJy1mX.js",
+      "bytes": 1996,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/B_Rtnxkb.js",
+      "bytes": 5262,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/Do9JUX1n.js",
+      "bytes": 8371,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/PHPXehwF.js",
+      "bytes": 717,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BbvUQAns.js",
+      "bytes": 34434,
+      "allocated": 36864
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/CUYkO68a.js",
+      "bytes": 20513,
+      "allocated": 24576
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/DcD38ePV.js",
+      "bytes": 856,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/BMibJ0OK.js",
+      "bytes": 5794,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/chunks/Dst3h28x.js",
+      "bytes": 10198,
+      "allocated": 12288
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/ShipyardScreen.S7Rk_lp1.css",
+      "bytes": 7643,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/WorldMapScreen.DqIkETRY.css",
+      "bytes": 641,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/DefenseScreen.CoV5K5mh.css",
+      "bytes": 3677,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/ProgressionScreen.K_GCn03i.css",
+      "bytes": 5329,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/FleetScreen.BRZHtzk3.css",
+      "bytes": 13150,
+      "allocated": 16384
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/FactionsScreen.rFHInk0o.css",
+      "bytes": 1270,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/2.Dy7HfCiV.css",
+      "bytes": 19995,
+      "allocated": 20480
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/0.DBOq-ijQ.css",
+      "bytes": 32558,
+      "allocated": 32768
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/CrewScreen.XLCb5I-Q.css",
+      "bytes": 6960,
+      "allocated": 8192
+    },
+    {
+      "path": ".svelte-kit/output/client/_app/immutable/assets/RaidScreen.BpzQ0ZTD.css",
+      "bytes": 1201,
+      "allocated": 4096
+    },
+    {
+      "path": ".svelte-kit/output/client/.vite/manifest.json",
+      "bytes": 10320,
+      "allocated": 12288
+    }
+  ]
+}
