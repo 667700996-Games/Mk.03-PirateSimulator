@@ -4,7 +4,7 @@ import svelte from 'eslint-plugin-svelte';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['.svelte-kit/**', 'build/**', 'coverage/**', 'playwright-report/**', 'test-results/**'] },
+  { ignores: ['.svelte-kit/**', '.build-work/**', '.build-artifacts/**', 'build/**', 'coverage/**', 'playwright-report/**', 'test-results/**'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...svelte.configs.recommended,

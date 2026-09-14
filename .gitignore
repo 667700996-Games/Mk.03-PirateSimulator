@@ -11,3 +11,6 @@ tmp/imagegen/
 .env.*
 !.env.example
 npm-debug.log*
+.build-work/
+.build-artifacts/
+__pycache__/

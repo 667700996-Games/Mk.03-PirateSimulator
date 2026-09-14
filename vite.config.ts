@@ -1,8 +1,19 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vitest/config';
+import { buildContext } from './tools/build-context.mjs';
+
+const context = buildContext();
 
 export default defineConfig({
-  plugins: [sveltekit()],
+  plugins: [{
+    name: 'owned-build-workspace',
+    configResolved(config) {
+      if (config.command === 'build' && !context) {
+        throw new Error('Use npm run build; builds require an owned workspace and lock');
+      }
+    }
+  }, sveltekit()],
+  ...(context ? { cacheDir: context.cache } : {}),
   // Phaser is isolated behind the lazily loaded settlement/sea screens. Its
   // minified engine chunk is ~1.2 MB (~319 KB gzip), so keep the warning gate
   // above that deliberate vendor boundary while watching first-load chunks.

@@ -14,10 +14,25 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm run test:build-tools
       - run: npm run check
       - run: npm run lint
       - run: npm run test:coverage
       - run: npm run build
+      - name: Recover owned build workspaces
+        if: ${{ always() }}
+        run: npm run build:clean
+      - name: Upload bounded build logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: build-logs
+          path: .build-artifacts/logs/*/raw.log
+          if-no-files-found: ignore
+          retention-days: 14
 
   browser-loop:
     runs-on: ubuntu-latest
@@ -43,6 +58,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - run: npx playwright install --with-deps ${{ matrix.browser }}
       - run: npx playwright test --project=${{ matrix.project }}
       - name: Upload Playwright report
@@ -51,5 +69,16 @@ jobs:
         with:
           name: playwright-report-${{ matrix.project }}
           path: playwright-report
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Recover owned browser-build workspaces
+        if: ${{ always() }}
+        run: npm run build:clean
+      - name: Upload bounded browser-build logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: build-logs-${{ matrix.project }}
+          path: .build-artifacts/logs/*/raw.log
           if-no-files-found: ignore
           retention-days: 14

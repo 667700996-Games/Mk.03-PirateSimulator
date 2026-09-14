@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build": "python3 tools/build_lifecycle.py build",
+    "build:clean": "python3 tools/build_lifecycle.py clean",
+    "test:build-tools": "python3 -B -m unittest discover -s tools/tests -v",
+    "preview": "python3 tools/build_lifecycle.py preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "lint": "eslint .",
     "test": "vitest run",
